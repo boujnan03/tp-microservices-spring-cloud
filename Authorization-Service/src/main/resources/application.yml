@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: authorization-service
+  security:
+    basic:
+      enabled: false
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
+
+server:
+  port: 8085
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+# Credentials de sécurité
+security:
+  productcomposite:
+    admin:
+      username: admin
+      password: admin123
+      role: ADMIN
+    user:
+      username: user
+      password: user123
+      role: USER
+
+logging:
+  level:
+    org.springframework.security: OFF
+    com.example.authorization: DEBUG
