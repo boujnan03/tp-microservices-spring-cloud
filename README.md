@@ -155,4 +155,3 @@ tp-microservices-spring-cloud/
 *Master AIDC - Université Sultan Moulay Slimane, FST Béni Mellal (Année 2025)*
 
  *Ce TP démontre une architecture microservices professionnelle avec les patterns et bonnes pratiques de Spring Cloud, incluant sécurité, résilience et scalabilité.*  
- *Prêt pour la production : déployable sur cloud avec Docker.*
